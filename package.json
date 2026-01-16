@@ -1,0 +1,14 @@
+{
+  "name": "lambdatest",
+  "version": "1.0.0",
+  "description": "Solana Lambda Infrastructure Test Application",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start"
+  },
+  "author": "",
+  "license": "ISC"
+}
